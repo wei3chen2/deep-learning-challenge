@@ -1,7 +1,8 @@
 # Deep-Learning-Challenge
-
+![machinelearning.tmp](machinelearning.tmp)
 ## Overview
 This project is aimed to build a model that can  help  Alphabet Soup, a nonprofit foundation, to choose the most promising applicants for charity funding. You will use machine learning and neural networks to design a binary classificaier that can predict whether appliacants will be successful or not, based on a CSV dataset of more than 34,000 organizations that have received funding from Alphabet Soup during the past several years.
+
 
 
 ## Project outline
