@@ -1,5 +1,6 @@
 # Alphabet Soup Charity Funding Prediction
 <p align="center">
+
 ![machine_learning.jpg](images/machine_learning.jpg)
 </p>
 
@@ -61,6 +62,7 @@ This project is aimed to build a model that can  help  Alphabet Soup, a nonprofi
 ## Summary
 
 To sum up, this project used python libraries Pandas and scikit-learn to process and explore a CSV dataset containing funding record of 34,000 organizations that have received funding over the years.  The neural network model is designed, trained, evaluated and optimized using deep learning libraries TensorFlow and Keras. After adjustment and optimization, the finalized model has achieved great performance with a model loss of ”0.4450” and model accuracy of “0.8005”, which exceeded the target accuracy of ”0.75” by a significant margin.
+
 To solve the classification problem, some other recommended approach is to develop a single neural network model that can predict both a numeric and class label value from the same input, such as “OutputCodeClassifier”,“MultiOutputClassifier”, “ClassifierChain” and “OneVsRestClassifier”. These models can be used to solve multi-output classification problems where each sample has multiple target labels that are mutually exclusive.  
 
 
