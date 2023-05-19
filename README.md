@@ -13,10 +13,10 @@ This project is aimed to build a model that can  help  Alphabet Soup, a nonprofi
    * Read in the charity_data.csv to a Pandas DataFrame
    * Pick a cutoff point to bin "rare" categorical variables
    * Split the data into training and testing datasets.
-   * Scale the training and testing features datasets by creating a StandardScaler instance
+   * Scale the training and testing features datasets by creating a `StandardScaler` instance
 ### Step 2: Compile, Train, and Evaluate the neural network Model using TensorFlow and Keras
    * Continue using the file in Google Colab in which you performed the preprocessing steps
-   * Create a neural network model by assigning the number of input features and nodes for each     layer using TensorFlow and Keras
+   * Create a neural network model by assigning the number of input features and nodes for each     layer using `TensorFlow` and `Keras`
    * Create the several hidden layers and an output layer with an appropriate activation function.
    * Compile and train the model.
    * Evaluate the model using the test data to determine the loss and accuracy.
@@ -61,7 +61,7 @@ This project is aimed to build a model that can  help  Alphabet Soup, a nonprofi
 
 ## Summary
 
-To sum up, this project used python libraries Pandas and scikit-learn to process and explore a CSV dataset containing funding record of 34,000 organizations that have received funding over the years.  The neural network model is designed, trained, evaluated and optimized using deep learning libraries TensorFlow and Keras. After adjustment and optimization, the finalized model has achieved great performance with a model loss of ”0.4450” and model accuracy of “0.8005”, which exceeded the target accuracy of ”0.75” by a significant margin.
+To sum up, this project used python libraries `Pandas` and `scikit-learn` to process and explore a CSV dataset containing funding record of 34,000 organizations that have received funding over the years.  The neural network model is designed, trained, evaluated and optimized using deep learning libraries `TensorFlow` and `Keras`. After adjustment and optimization, the finalized model has achieved great performance with a model loss of ”0.4450” and model accuracy of “0.8005”, which exceeded the target accuracy of ”0.75” by a significant margin.
 
 To solve the classification problem, some other recommended approach is to develop a single neural network model that can predict both a numeric and class label value from the same input, such as “OutputCodeClassifier”,“MultiOutputClassifier”, “ClassifierChain” and “OneVsRestClassifier”. These models can be used to solve multi-output classification problems where each sample has multiple target labels that are mutually exclusive.  
 
